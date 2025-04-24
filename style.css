@@ -1,6 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: aliceblue;
@@ -86,4 +87,11 @@ body {
 .sm-link li a:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
 }
